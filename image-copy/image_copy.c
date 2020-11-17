@@ -2,7 +2,7 @@
 
 #include "constants.h"
 
-void image_reader(
+void ImageWriter(
     const char *image_name,
     int *_bit_depth,
     unsigned char *_header,
@@ -33,7 +33,7 @@ void image_reader(
     fclose(fin);
 }
 
-void image_writer(
+void ImageReader(
     const char *image_name,
     int *bit_depth,
     unsigned char *header,

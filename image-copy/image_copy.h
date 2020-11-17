@@ -1,11 +1,11 @@
-void image_reader(
+void ImageReader(
     const char *image_name,
     int *_bit_depth,
     unsigned char *_header,
     unsigned char *_color_table,
     unsigned char *_buffer);
 
-void image_writer(
+void ImageWriter(
     const char *image_name,
     int *bit_depth,
     unsigned char *header,
