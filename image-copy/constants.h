@@ -1,0 +1,11 @@
+#ifndef BMP_HEADER_SIZE
+#define BMP_HEADER_SIZE 54
+#endif
+
+#ifndef BMP_COLOR_TABLE_SIZE
+#define BMP_COLOR_TABLE_SIZE 1024
+#endif
+
+#ifndef CUSTOM_IMAGE_SIZE
+#define CUSTOM_IMAGE_SIZE 1024 * 1024
+#endif
